@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To Do List</title>
+    <link rel="stylesheet" href="/app.css" />
+    <script src="/app.js" defer></script>
+  </head>
+  <body class="body">
+    <div class="container">
+      <div class="atm-card">
+        <div>
+          <div class="heading-box">
+            <h2>
+              ATM
+              <img src="https://i.postimg.cc/CKZJpTwv/atm-icon.png" alt="" />
+            </h2>
+            <h3 id="h3" style="display: none">Main Menu</h3>
+          </div>
+          <div class="row row1" id="row1">
+            <input
+              type="password"
+              name=""
+              id="input-box"
+              placeholder="Enter Pin!"
+            />
+          </div>
+          <ul id="list-container"></ul>
+        </div>
+
+        <div class="row row2">
+          <div>
+            <button id="btn">Submit</button>
+            <button id="btn2" style="display: none">Deposit</button>
+            <button id="btn3" style="display: none">Withdraw</button>
+          </div>
+          <div class="menu-box">
+            <button id="btn-main-menu" class="main-menu" style="display: none">
+              Main Menu
+            </button>
+          </div>
+        
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
